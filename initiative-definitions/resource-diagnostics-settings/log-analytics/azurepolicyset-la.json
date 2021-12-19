@@ -391,17 +391,6 @@
                 }
             },
             {
-                "policyDefinitionId": "{policyLocationResourceId1}/providers/Microsoft.Authorization/policyDefinitions/recoveryVault-diagnostic-settings-policyDef",
-                "parameters": {
-                    "diagnosticsSettingNameToUse":{
-                        "value": "[parameters('diagnosticsSettingNameToUse')]"
-                    },
-                    "logAnalytics": {
-                        "value": "[parameters('logAnalytics')]"
-                    }
-                }
-            },
-            {
                 "policyDefinitionId": "{policyLocationResourceId1}/providers/Microsoft.Authorization/policyDefinitions/redisCache-diagnostic-settings-policyDef",
                 "parameters": {
                     "diagnosticsSettingNameToUse":{
