@@ -14,5 +14,5 @@ steps:
   inputs:
     azureSubscription: 'DemoCustomer Connection'
     ScriptType: 'InlineScript'
-    Inline: 'deploy-policySetDefinition.ps1'
-
+    Inline: >
+      ./scripts/deploy-policySetDef.ps1 -definitionFile ./initiative-definitions/resource-diagnostics-settings/log-analytics/azurepolicyset-la.json -managementGroupName Demo -PolicyLocations @{policyLocationResourceId1 = '/providers/Microsoft.Management/managementGroups/Demo'}
